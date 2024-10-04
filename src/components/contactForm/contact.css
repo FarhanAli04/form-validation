@@ -1,0 +1,51 @@
+/* Centering the form and applying dark background */
+body {
+  background-color: #121212; /* Dark background */
+  color: white; /* White text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #1e1e1e; /* Darker background for the form */
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px; /* Set max width for responsiveness */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  background-color: #2e2e2e; /* Dark input background */
+  color: white; /* White input text */
+  border: 1px solid #444; /* Border style */
+}
+
+input:focus {
+  background-color: #3a3a3a; /* Change background on focus */
+  border-color: #5a5a5a; /* Change border color on focus */
+}
+
+.text-danger {
+  color: #ff4d4d; /* Red color for error messages */
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
